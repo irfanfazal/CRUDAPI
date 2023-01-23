@@ -107,5 +107,9 @@ namespace CRUD1.Controllers
         {
             return _context.users.Any(e => e.Id == id);
         }
+        private bool testFunction(int id)
+        {
+            return _context.users.Any(e => e.Id == id);
+        }
     }
 }
